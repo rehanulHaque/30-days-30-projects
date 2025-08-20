@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { Github, Twitter, Instagram } from "lucide-react";
 
 const projects = [
   { name: "Todo App", path: "/todo", img: "https://img.icons8.com/color/96/task.png" },
@@ -40,6 +41,18 @@ export default function LandingPage() {
         <p className="text-lg text-gray-600 max-w-xl mx-auto">
           A coding challenge where I build 30 React projects in 30 days and share them with the world 🌍
         </p>
+
+        <div className="flex justify-center gap-4 mt-6">
+          <a href="https://github.com/rehanulHaque/" target="_blank" rel="noreferrer">
+            <Github className="w-6 h-6 hover:text-black transition" />
+          </a>
+          <a href="https://x.com/MdRehan_CR" target="_blank" rel="noreferrer">
+            <Twitter className="w-6 h-6 hover:text-sky-500 transition" />
+          </a>
+          <a href="https://www.instagram.com/rehan_._cr" target="_blank" rel="noreferrer">
+            <Instagram className="w-6 h-6 hover:text-blue-600 transition" />
+          </a>
+        </div>
       </section>
 
       {/* Projects Grid */}
