@@ -24,7 +24,7 @@ export default function Todo() {
   };
   return (
     <main className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 text-gray-900 flex items-center justify-center">
-      <div className="min-w-[400px] p-4 rounded-md border border-gray-600">
+      <div className="w-[350px] p-4 rounded-md border border-gray-600">
         <h1 className="text-2xl font-bold mb-4">Todo Management</h1>
         <form onSubmit={handelSubmit} className="flex gap-2">
           <input

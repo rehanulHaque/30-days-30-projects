@@ -31,7 +31,7 @@ export default function PasswordGenerator() {
   }, [range, symbol, number, upper])
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 text-gray-900 flex justify-center items-center">
-      <div className="min-w-[400px] p-4 rounded-md border border-gray-600">
+      <div className="w-[350px] p-4 rounded-md border border-gray-600">
         <h1 className="text-2xl font-bold mb-3">Password Generator</h1>
         <div className="flex gap-2 items-center justify-between">
           <div className="bg-gray-200 p-2 rounded w-full">
